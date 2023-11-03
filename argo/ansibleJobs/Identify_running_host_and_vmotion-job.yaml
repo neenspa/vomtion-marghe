@@ -1,0 +1,10 @@
+---
+apiVersion: tower.ansible.com/v1alpha1
+kind: AnsibleJob
+metadata:
+  name: Identify_running_host_and_vmotion-job
+  namespace: aap
+spec:
+  connection_secret: aapaccess
+  job_template_name: Identify-running-host-and-vmotion
+  extra_vars: 

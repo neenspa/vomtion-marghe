@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vomtion-marghe
+  description: perform a  vm
+  annotations:
+    backstage.io/kubernetes-id: vomtion-marghe
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/vomtion-marghe
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
